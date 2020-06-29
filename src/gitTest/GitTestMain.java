@@ -15,5 +15,6 @@ public class GitTestMain {
 		DateTimeFormatter df = DateTimeFormatter.ofPattern("yyyy-MM-dd, HH:mm:ss");
 		System.out.println("** LocalDateTime pattern => " + today.format(df));
 		System.out.println("** Local Commit Test...");
+		System.out.println("** hotfix branch Commit Test...");
 	} // main
 } // class
